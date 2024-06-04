@@ -1,0 +1,1974 @@
+[
+    {
+        "id": 25763611523,
+        "run_id": 9359609734,
+        "workflow_name": "CI",
+        "head_branch": "master",
+        "run_url": "https://api.github.com/repos/andrewrothstein/hunter/actions/runs/9359609734",
+        "run_attempt": 1,
+        "node_id": "CR_kwDODHB7ws8AAAAF_6GDgw",
+        "head_sha": "f59ec4ed2e7ee0fab3291191cf28cd052b34ce13",
+        "url": "https://api.github.com/repos/andrewrothstein/hunter/actions/jobs/25763611523",
+        "html_url": "https://github.com/andrewrothstein/hunter/actions/runs/9359609734/job/25763611523",
+        "status": "completed",
+        "conclusion": "success",
+        "created_at": "2024-06-04T01:15:34Z",
+        "started_at": "2024-06-04T01:35:50Z",
+        "completed_at": "2024-06-04T01:36:23Z",
+        "name": "xxHash analyze-cxx17 ubuntu-20.04",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2024-06-04T01:35:50Z",
+                "completed_at": "2024-06-04T01:35:50Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2024-06-04T01:35:50Z",
+                "completed_at": "2024-06-04T01:35:53Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2024-06-04T01:35:54Z",
+                "completed_at": "2024-06-04T01:35:54Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 4,
+                "started_at": "2024-06-04T01:35:54Z",
+                "completed_at": "2024-06-04T01:35:54Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 5,
+                "started_at": "2024-06-04T01:35:54Z",
+                "completed_at": "2024-06-04T01:35:54Z"
+            },
+            {
+                "name": "Build hunter_tests Unix",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 6,
+                "started_at": "2024-06-04T01:35:54Z",
+                "completed_at": "2024-06-04T01:35:54Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 7,
+                "started_at": "2024-06-04T01:35:54Z",
+                "completed_at": "2024-06-04T01:36:21Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 8,
+                "started_at": "2024-06-04T01:36:21Z",
+                "completed_at": "2024-06-04T01:36:21Z"
+            },
+            {
+                "name": "Post Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 15,
+                "started_at": "2024-06-04T01:36:21Z",
+                "completed_at": "2024-06-04T01:36:21Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 16,
+                "started_at": "2024-06-04T01:36:21Z",
+                "completed_at": "2024-06-04T01:36:21Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 17,
+                "started_at": "2024-06-04T01:36:21Z",
+                "completed_at": "2024-06-04T01:36:21Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/andrewrothstein/hunter/check-runs/25763611523",
+        "labels": [
+            "ubuntu-20.04"
+        ],
+        "runner_id": 21,
+        "runner_name": "GitHub Actions 1",
+        "runner_group_id": 2,
+        "runner_group_name": "GitHub Actions"
+    },
+    {
+        "id": 25763611380,
+        "run_id": 9359609734,
+        "workflow_name": "CI",
+        "head_branch": "master",
+        "run_url": "https://api.github.com/repos/andrewrothstein/hunter/actions/runs/9359609734",
+        "run_attempt": 1,
+        "node_id": "CR_kwDODHB7ws8AAAAF_6GC9A",
+        "head_sha": "f59ec4ed2e7ee0fab3291191cf28cd052b34ce13",
+        "url": "https://api.github.com/repos/andrewrothstein/hunter/actions/jobs/25763611380",
+        "html_url": "https://github.com/andrewrothstein/hunter/actions/runs/9359609734/job/25763611380",
+        "status": "completed",
+        "conclusion": "success",
+        "created_at": "2024-06-04T01:15:34Z",
+        "started_at": "2024-06-04T01:35:55Z",
+        "completed_at": "2024-06-04T01:36:44Z",
+        "name": "xxHash android-ndk-r17-api-24-arm64-v8a-clang-libcxx14 ubuntu-20.04",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2024-06-04T01:35:55Z",
+                "completed_at": "2024-06-04T01:35:55Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2024-06-04T01:35:55Z",
+                "completed_at": "2024-06-04T01:36:00Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2024-06-04T01:36:00Z",
+                "completed_at": "2024-06-04T01:36:00Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 4,
+                "started_at": "2024-06-04T01:36:01Z",
+                "completed_at": "2024-06-04T01:36:01Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 5,
+                "started_at": "2024-06-04T01:36:01Z",
+                "completed_at": "2024-06-04T01:36:01Z"
+            },
+            {
+                "name": "Build hunter_tests Unix",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 6,
+                "started_at": "2024-06-04T01:36:01Z",
+                "completed_at": "2024-06-04T01:36:01Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 7,
+                "started_at": "2024-06-04T01:36:01Z",
+                "completed_at": "2024-06-04T01:36:41Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 8,
+                "started_at": "2024-06-04T01:36:41Z",
+                "completed_at": "2024-06-04T01:36:41Z"
+            },
+            {
+                "name": "Post Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 15,
+                "started_at": "2024-06-04T01:36:41Z",
+                "completed_at": "2024-06-04T01:36:41Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 16,
+                "started_at": "2024-06-04T01:36:41Z",
+                "completed_at": "2024-06-04T01:36:41Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 17,
+                "started_at": "2024-06-04T01:36:41Z",
+                "completed_at": "2024-06-04T01:36:41Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/andrewrothstein/hunter/check-runs/25763611380",
+        "labels": [
+            "ubuntu-20.04"
+        ],
+        "runner_id": 15,
+        "runner_name": "GitHub Actions 15",
+        "runner_group_id": 2,
+        "runner_group_name": "GitHub Actions"
+    },
+    {
+        "id": 25763607544,
+        "run_id": 9359609734,
+        "workflow_name": "CI",
+        "head_branch": "master",
+        "run_url": "https://api.github.com/repos/andrewrothstein/hunter/actions/runs/9359609734",
+        "run_attempt": 1,
+        "node_id": "CR_kwDODHB7ws8AAAAF_6Fz-A",
+        "head_sha": "f59ec4ed2e7ee0fab3291191cf28cd052b34ce13",
+        "url": "https://api.github.com/repos/andrewrothstein/hunter/actions/jobs/25763607544",
+        "html_url": "https://github.com/andrewrothstein/hunter/actions/runs/9359609734/job/25763607544",
+        "status": "completed",
+        "conclusion": "success",
+        "created_at": "2024-06-04T01:15:25Z",
+        "started_at": "2024-06-04T01:35:55Z",
+        "completed_at": "2024-06-04T01:36:31Z",
+        "name": "xxHash clang-cxx17 ubuntu-20.04",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2024-06-04T01:35:54Z",
+                "completed_at": "2024-06-04T01:35:55Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2024-06-04T01:35:55Z",
+                "completed_at": "2024-06-04T01:36:00Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2024-06-04T01:36:00Z",
+                "completed_at": "2024-06-04T01:36:00Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 4,
+                "started_at": "2024-06-04T01:36:00Z",
+                "completed_at": "2024-06-04T01:36:00Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 5,
+                "started_at": "2024-06-04T01:36:00Z",
+                "completed_at": "2024-06-04T01:36:00Z"
+            },
+            {
+                "name": "Build hunter_tests Unix",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 6,
+                "started_at": "2024-06-04T01:36:00Z",
+                "completed_at": "2024-06-04T01:36:00Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 7,
+                "started_at": "2024-06-04T01:36:00Z",
+                "completed_at": "2024-06-04T01:36:28Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 8,
+                "started_at": "2024-06-04T01:36:29Z",
+                "completed_at": "2024-06-04T01:36:29Z"
+            },
+            {
+                "name": "Post Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 15,
+                "started_at": "2024-06-04T01:36:29Z",
+                "completed_at": "2024-06-04T01:36:29Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 16,
+                "started_at": "2024-06-04T01:36:29Z",
+                "completed_at": "2024-06-04T01:36:29Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 17,
+                "started_at": "2024-06-04T01:36:29Z",
+                "completed_at": "2024-06-04T01:36:29Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/andrewrothstein/hunter/check-runs/25763607544",
+        "labels": [
+            "ubuntu-20.04"
+        ],
+        "runner_id": 2,
+        "runner_name": "GitHub Actions 2",
+        "runner_group_id": 2,
+        "runner_group_name": "GitHub Actions"
+    },
+    {
+        "id": 25763610288,
+        "run_id": 9359609734,
+        "workflow_name": "CI",
+        "head_branch": "master",
+        "run_url": "https://api.github.com/repos/andrewrothstein/hunter/actions/runs/9359609734",
+        "run_attempt": 1,
+        "node_id": "CR_kwDODHB7ws8AAAAF_6F-sA",
+        "head_sha": "f59ec4ed2e7ee0fab3291191cf28cd052b34ce13",
+        "url": "https://api.github.com/repos/andrewrothstein/hunter/actions/jobs/25763610288",
+        "html_url": "https://github.com/andrewrothstein/hunter/actions/runs/9359609734/job/25763610288",
+        "status": "completed",
+        "conclusion": "success",
+        "created_at": "2024-06-04T01:15:31Z",
+        "started_at": "2024-06-04T01:36:20Z",
+        "completed_at": "2024-06-04T01:37:00Z",
+        "name": "xxHash gcc-7-cxx17 ubuntu-20.04",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2024-06-04T01:36:19Z",
+                "completed_at": "2024-06-04T01:36:20Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2024-06-04T01:36:20Z",
+                "completed_at": "2024-06-04T01:36:25Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2024-06-04T01:36:25Z",
+                "completed_at": "2024-06-04T01:36:25Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 4,
+                "started_at": "2024-06-04T01:36:25Z",
+                "completed_at": "2024-06-04T01:36:25Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 5,
+                "started_at": "2024-06-04T01:36:25Z",
+                "completed_at": "2024-06-04T01:36:25Z"
+            },
+            {
+                "name": "Build hunter_tests Unix",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 6,
+                "started_at": "2024-06-04T01:36:25Z",
+                "completed_at": "2024-06-04T01:36:25Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 7,
+                "started_at": "2024-06-04T01:36:25Z",
+                "completed_at": "2024-06-04T01:36:56Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 8,
+                "started_at": "2024-06-04T01:37:00Z",
+                "completed_at": "2024-06-04T01:37:00Z"
+            },
+            {
+                "name": "Post Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 15,
+                "started_at": "2024-06-04T01:37:00Z",
+                "completed_at": "2024-06-04T01:37:00Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 16,
+                "started_at": "2024-06-04T01:37:00Z",
+                "completed_at": "2024-06-04T01:37:00Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 17,
+                "started_at": "2024-06-04T01:36:56Z",
+                "completed_at": "2024-06-04T01:36:56Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/andrewrothstein/hunter/check-runs/25763610288",
+        "labels": [
+            "ubuntu-20.04"
+        ],
+        "runner_id": 3,
+        "runner_name": "GitHub Actions 3",
+        "runner_group_id": 2,
+        "runner_group_name": "GitHub Actions"
+    },
+    {
+        "id": 25763610997,
+        "run_id": 9359609734,
+        "workflow_name": "CI",
+        "head_branch": "master",
+        "run_url": "https://api.github.com/repos/andrewrothstein/hunter/actions/runs/9359609734",
+        "run_attempt": 1,
+        "node_id": "CR_kwDODHB7ws8AAAAF_6GBdQ",
+        "head_sha": "f59ec4ed2e7ee0fab3291191cf28cd052b34ce13",
+        "url": "https://api.github.com/repos/andrewrothstein/hunter/actions/jobs/25763610997",
+        "html_url": "https://github.com/andrewrothstein/hunter/actions/runs/9359609734/job/25763610997",
+        "status": "completed",
+        "conclusion": "success",
+        "created_at": "2024-06-04T01:15:33Z",
+        "started_at": "2024-06-04T01:36:21Z",
+        "completed_at": "2024-06-04T01:37:01Z",
+        "name": "xxHash gcc-8-cxx17-fpic ubuntu-20.04",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2024-06-04T01:36:20Z",
+                "completed_at": "2024-06-04T01:36:21Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2024-06-04T01:36:21Z",
+                "completed_at": "2024-06-04T01:36:25Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2024-06-04T01:36:26Z",
+                "completed_at": "2024-06-04T01:36:26Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 4,
+                "started_at": "2024-06-04T01:36:26Z",
+                "completed_at": "2024-06-04T01:36:26Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 5,
+                "started_at": "2024-06-04T01:36:26Z",
+                "completed_at": "2024-06-04T01:36:26Z"
+            },
+            {
+                "name": "Build hunter_tests Unix",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 6,
+                "started_at": "2024-06-04T01:36:26Z",
+                "completed_at": "2024-06-04T01:36:26Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 7,
+                "started_at": "2024-06-04T01:36:26Z",
+                "completed_at": "2024-06-04T01:36:57Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 8,
+                "started_at": "2024-06-04T01:37:01Z",
+                "completed_at": "2024-06-04T01:37:01Z"
+            },
+            {
+                "name": "Post Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 15,
+                "started_at": "2024-06-04T01:37:01Z",
+                "completed_at": "2024-06-04T01:37:01Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 16,
+                "started_at": "2024-06-04T01:37:01Z",
+                "completed_at": "2024-06-04T01:37:01Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 17,
+                "started_at": "2024-06-04T01:36:57Z",
+                "completed_at": "2024-06-04T01:36:57Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/andrewrothstein/hunter/check-runs/25763610997",
+        "labels": [
+            "ubuntu-20.04"
+        ],
+        "runner_id": 7,
+        "runner_name": "GitHub Actions 7",
+        "runner_group_id": 2,
+        "runner_group_name": "GitHub Actions"
+    },
+    {
+        "id": 25763611250,
+        "run_id": 9359609734,
+        "workflow_name": "CI",
+        "head_branch": "master",
+        "run_url": "https://api.github.com/repos/andrewrothstein/hunter/actions/runs/9359609734",
+        "run_attempt": 1,
+        "node_id": "CR_kwDODHB7ws8AAAAF_6GCcg",
+        "head_sha": "f59ec4ed2e7ee0fab3291191cf28cd052b34ce13",
+        "url": "https://api.github.com/repos/andrewrothstein/hunter/actions/jobs/25763611250",
+        "html_url": "https://github.com/andrewrothstein/hunter/actions/runs/9359609734/job/25763611250",
+        "status": "completed",
+        "conclusion": "success",
+        "created_at": "2024-06-04T01:15:33Z",
+        "started_at": "2024-06-04T01:36:23Z",
+        "completed_at": "2024-06-04T01:36:53Z",
+        "name": "xxHash gcc-9-cxx17-fpic ubuntu-20.04",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2024-06-04T01:36:22Z",
+                "completed_at": "2024-06-04T01:36:23Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2024-06-04T01:36:23Z",
+                "completed_at": "2024-06-04T01:36:26Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2024-06-04T01:36:26Z",
+                "completed_at": "2024-06-04T01:36:26Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 4,
+                "started_at": "2024-06-04T01:36:27Z",
+                "completed_at": "2024-06-04T01:36:27Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 5,
+                "started_at": "2024-06-04T01:36:27Z",
+                "completed_at": "2024-06-04T01:36:27Z"
+            },
+            {
+                "name": "Build hunter_tests Unix",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 6,
+                "started_at": "2024-06-04T01:36:27Z",
+                "completed_at": "2024-06-04T01:36:27Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 7,
+                "started_at": "2024-06-04T01:36:27Z",
+                "completed_at": "2024-06-04T01:36:51Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 8,
+                "started_at": "2024-06-04T01:36:51Z",
+                "completed_at": "2024-06-04T01:36:51Z"
+            },
+            {
+                "name": "Post Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 15,
+                "started_at": "2024-06-04T01:36:51Z",
+                "completed_at": "2024-06-04T01:36:51Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 16,
+                "started_at": "2024-06-04T01:36:53Z",
+                "completed_at": "2024-06-04T01:36:53Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 17,
+                "started_at": "2024-06-04T01:36:51Z",
+                "completed_at": "2024-06-04T01:36:51Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/andrewrothstein/hunter/check-runs/25763611250",
+        "labels": [
+            "ubuntu-20.04"
+        ],
+        "runner_id": 14,
+        "runner_name": "GitHub Actions 14",
+        "runner_group_id": 2,
+        "runner_group_name": "GitHub Actions"
+    },
+    {
+        "id": 25763612802,
+        "run_id": 9359609734,
+        "workflow_name": "CI",
+        "head_branch": "master",
+        "run_url": "https://api.github.com/repos/andrewrothstein/hunter/actions/runs/9359609734",
+        "run_attempt": 1,
+        "node_id": "CR_kwDODHB7ws8AAAAF_6GIgg",
+        "head_sha": "f59ec4ed2e7ee0fab3291191cf28cd052b34ce13",
+        "url": "https://api.github.com/repos/andrewrothstein/hunter/actions/jobs/25763612802",
+        "html_url": "https://github.com/andrewrothstein/hunter/actions/runs/9359609734/job/25763612802",
+        "status": "completed",
+        "conclusion": "success",
+        "created_at": "2024-06-04T01:15:37Z",
+        "started_at": "2024-06-04T01:36:25Z",
+        "completed_at": "2024-06-04T01:37:46Z",
+        "name": "xxHash ios-nocodesign-15-5-arm64-cxx17 macos-12",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2024-06-04T01:36:25Z",
+                "completed_at": "2024-06-04T01:36:26Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2024-06-04T01:36:26Z",
+                "completed_at": "2024-06-04T01:36:35Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2024-06-04T01:36:36Z",
+                "completed_at": "2024-06-04T01:36:36Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 4,
+                "started_at": "2024-06-04T01:36:36Z",
+                "completed_at": "2024-06-04T01:36:36Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 5,
+                "started_at": "2024-06-04T01:36:37Z",
+                "completed_at": "2024-06-04T01:36:37Z"
+            },
+            {
+                "name": "Build hunter_tests Unix",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 6,
+                "started_at": "2024-06-04T01:36:37Z",
+                "completed_at": "2024-06-04T01:36:37Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 7,
+                "started_at": "2024-06-04T01:36:37Z",
+                "completed_at": "2024-06-04T01:37:43Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 8,
+                "started_at": "2024-06-04T01:37:44Z",
+                "completed_at": "2024-06-04T01:37:44Z"
+            },
+            {
+                "name": "Post Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 15,
+                "started_at": "2024-06-04T01:37:44Z",
+                "completed_at": "2024-06-04T01:37:44Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 16,
+                "started_at": "2024-06-04T01:37:44Z",
+                "completed_at": "2024-06-04T01:37:44Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 17,
+                "started_at": "2024-06-04T01:37:44Z",
+                "completed_at": "2024-06-04T01:37:44Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/andrewrothstein/hunter/check-runs/25763612802",
+        "labels": [
+            "macos-12"
+        ],
+        "runner_id": 10,
+        "runner_name": "GitHub Actions 10",
+        "runner_group_id": 2,
+        "runner_group_name": "GitHub Actions"
+    },
+    {
+        "id": 25763613531,
+        "run_id": 9359609734,
+        "workflow_name": "CI",
+        "head_branch": "master",
+        "run_url": "https://api.github.com/repos/andrewrothstein/hunter/actions/runs/9359609734",
+        "run_attempt": 1,
+        "node_id": "CR_kwDODHB7ws8AAAAF_6GLWw",
+        "head_sha": "f59ec4ed2e7ee0fab3291191cf28cd052b34ce13",
+        "url": "https://api.github.com/repos/andrewrothstein/hunter/actions/jobs/25763613531",
+        "html_url": "https://github.com/andrewrothstein/hunter/actions/runs/9359609734/job/25763613531",
+        "status": "completed",
+        "conclusion": "success",
+        "created_at": "2024-06-04T01:15:39Z",
+        "started_at": "2024-06-04T01:36:33Z",
+        "completed_at": "2024-06-04T01:37:36Z",
+        "name": "xxHash mingw-cxx17 windows-2019",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2024-06-04T01:36:32Z",
+                "completed_at": "2024-06-04T01:36:33Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2024-06-04T01:36:33Z",
+                "completed_at": "2024-06-04T01:36:45Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2024-06-04T01:36:46Z",
+                "completed_at": "2024-06-04T01:36:46Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 4,
+                "started_at": "2024-06-04T01:36:46Z",
+                "completed_at": "2024-06-04T01:36:46Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 5,
+                "started_at": "2024-06-04T01:36:46Z",
+                "completed_at": "2024-06-04T01:36:46Z"
+            },
+            {
+                "name": "Build hunter_tests Unix",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 6,
+                "started_at": "2024-06-04T01:36:47Z",
+                "completed_at": "2024-06-04T01:36:47Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 7,
+                "started_at": "2024-06-04T01:36:47Z",
+                "completed_at": "2024-06-04T01:36:47Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 8,
+                "started_at": "2024-06-04T01:36:47Z",
+                "completed_at": "2024-06-04T01:37:33Z"
+            },
+            {
+                "name": "Post Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 15,
+                "started_at": "2024-06-04T01:37:33Z",
+                "completed_at": "2024-06-04T01:37:33Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 16,
+                "started_at": "2024-06-04T01:37:34Z",
+                "completed_at": "2024-06-04T01:37:35Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 17,
+                "started_at": "2024-06-04T01:37:35Z",
+                "completed_at": "2024-06-04T01:37:35Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/andrewrothstein/hunter/check-runs/25763613531",
+        "labels": [
+            "windows-2019"
+        ],
+        "runner_id": 21,
+        "runner_name": "GitHub Actions 1",
+        "runner_group_id": 2,
+        "runner_group_name": "GitHub Actions"
+    },
+    {
+        "id": 25763613673,
+        "run_id": 9359609734,
+        "workflow_name": "CI",
+        "head_branch": "master",
+        "run_url": "https://api.github.com/repos/andrewrothstein/hunter/actions/runs/9359609734",
+        "run_attempt": 1,
+        "node_id": "CR_kwDODHB7ws8AAAAF_6GL6Q",
+        "head_sha": "f59ec4ed2e7ee0fab3291191cf28cd052b34ce13",
+        "url": "https://api.github.com/repos/andrewrothstein/hunter/actions/jobs/25763613673",
+        "html_url": "https://github.com/andrewrothstein/hunter/actions/runs/9359609734/job/25763613673",
+        "status": "completed",
+        "conclusion": "success",
+        "created_at": "2024-06-04T01:15:39Z",
+        "started_at": "2024-06-04T01:37:02Z",
+        "completed_at": "2024-06-04T01:39:18Z",
+        "name": "xxHash msys-cxx17 windows-2019",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2024-06-04T01:37:01Z",
+                "completed_at": "2024-06-04T01:37:02Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2024-06-04T01:37:02Z",
+                "completed_at": "2024-06-04T01:37:15Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2024-06-04T01:37:15Z",
+                "completed_at": "2024-06-04T01:37:15Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 4,
+                "started_at": "2024-06-04T01:37:15Z",
+                "completed_at": "2024-06-04T01:37:15Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 5,
+                "started_at": "2024-06-04T01:37:15Z",
+                "completed_at": "2024-06-04T01:37:16Z"
+            },
+            {
+                "name": "Build hunter_tests Unix",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 6,
+                "started_at": "2024-06-04T01:37:16Z",
+                "completed_at": "2024-06-04T01:37:16Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 7,
+                "started_at": "2024-06-04T01:37:16Z",
+                "completed_at": "2024-06-04T01:37:16Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 8,
+                "started_at": "2024-06-04T01:37:16Z",
+                "completed_at": "2024-06-04T01:39:16Z"
+            },
+            {
+                "name": "Post Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 15,
+                "started_at": "2024-06-04T01:39:16Z",
+                "completed_at": "2024-06-04T01:39:16Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 16,
+                "started_at": "2024-06-04T01:39:16Z",
+                "completed_at": "2024-06-04T01:39:17Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 17,
+                "started_at": "2024-06-04T01:39:17Z",
+                "completed_at": "2024-06-04T01:39:17Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/andrewrothstein/hunter/check-runs/25763613673",
+        "labels": [
+            "windows-2019"
+        ],
+        "runner_id": 15,
+        "runner_name": "GitHub Actions 15",
+        "runner_group_id": 2,
+        "runner_group_name": "GitHub Actions"
+    },
+    {
+        "id": 25763612966,
+        "run_id": 9359609734,
+        "workflow_name": "CI",
+        "head_branch": "master",
+        "run_url": "https://api.github.com/repos/andrewrothstein/hunter/actions/runs/9359609734",
+        "run_attempt": 1,
+        "node_id": "CR_kwDODHB7ws8AAAAF_6GJJg",
+        "head_sha": "f59ec4ed2e7ee0fab3291191cf28cd052b34ce13",
+        "url": "https://api.github.com/repos/andrewrothstein/hunter/actions/jobs/25763612966",
+        "html_url": "https://github.com/andrewrothstein/hunter/actions/runs/9359609734/job/25763612966",
+        "status": "completed",
+        "conclusion": "success",
+        "created_at": "2024-06-04T01:15:38Z",
+        "started_at": "2024-06-04T01:36:44Z",
+        "completed_at": "2024-06-04T01:38:37Z",
+        "name": "xxHash ninja-vs-16-2019-win64-cxx17 windows-2019",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2024-06-04T01:36:44Z",
+                "completed_at": "2024-06-04T01:36:45Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2024-06-04T01:36:45Z",
+                "completed_at": "2024-06-04T01:37:04Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2024-06-04T01:37:04Z",
+                "completed_at": "2024-06-04T01:37:04Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 4,
+                "started_at": "2024-06-04T01:37:04Z",
+                "completed_at": "2024-06-04T01:37:04Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 5,
+                "started_at": "2024-06-04T01:37:04Z",
+                "completed_at": "2024-06-04T01:37:06Z"
+            },
+            {
+                "name": "Build hunter_tests Unix",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 6,
+                "started_at": "2024-06-04T01:37:06Z",
+                "completed_at": "2024-06-04T01:37:06Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 7,
+                "started_at": "2024-06-04T01:37:06Z",
+                "completed_at": "2024-06-04T01:37:06Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 8,
+                "started_at": "2024-06-04T01:37:06Z",
+                "completed_at": "2024-06-04T01:38:32Z"
+            },
+            {
+                "name": "Post Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 15,
+                "started_at": "2024-06-04T01:38:33Z",
+                "completed_at": "2024-06-04T01:38:33Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 16,
+                "started_at": "2024-06-04T01:38:33Z",
+                "completed_at": "2024-06-04T01:38:34Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 17,
+                "started_at": "2024-06-04T01:38:34Z",
+                "completed_at": "2024-06-04T01:38:34Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/andrewrothstein/hunter/check-runs/25763612966",
+        "labels": [
+            "windows-2019"
+        ],
+        "runner_id": 2,
+        "runner_name": "GitHub Actions 2",
+        "runner_group_id": 2,
+        "runner_group_name": "GitHub Actions"
+    },
+    {
+        "id": 25763613112,
+        "run_id": 9359609734,
+        "workflow_name": "CI",
+        "head_branch": "master",
+        "run_url": "https://api.github.com/repos/andrewrothstein/hunter/actions/runs/9359609734",
+        "run_attempt": 1,
+        "node_id": "CR_kwDODHB7ws8AAAAF_6GJuA",
+        "head_sha": "f59ec4ed2e7ee0fab3291191cf28cd052b34ce13",
+        "url": "https://api.github.com/repos/andrewrothstein/hunter/actions/jobs/25763613112",
+        "html_url": "https://github.com/andrewrothstein/hunter/actions/runs/9359609734/job/25763613112",
+        "status": "completed",
+        "conclusion": "success",
+        "created_at": "2024-06-04T01:15:38Z",
+        "started_at": "2024-06-04T01:37:05Z",
+        "completed_at": "2024-06-04T01:39:24Z",
+        "name": "xxHash nmake-vs-16-2019-win64-cxx17 windows-2019",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2024-06-04T01:37:05Z",
+                "completed_at": "2024-06-04T01:37:06Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2024-06-04T01:37:06Z",
+                "completed_at": "2024-06-04T01:37:26Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2024-06-04T01:37:26Z",
+                "completed_at": "2024-06-04T01:37:27Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 4,
+                "started_at": "2024-06-04T01:37:27Z",
+                "completed_at": "2024-06-04T01:37:27Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 5,
+                "started_at": "2024-06-04T01:37:27Z",
+                "completed_at": "2024-06-04T01:37:28Z"
+            },
+            {
+                "name": "Build hunter_tests Unix",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 6,
+                "started_at": "2024-06-04T01:37:29Z",
+                "completed_at": "2024-06-04T01:37:29Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 7,
+                "started_at": "2024-06-04T01:37:29Z",
+                "completed_at": "2024-06-04T01:37:29Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 8,
+                "started_at": "2024-06-04T01:37:29Z",
+                "completed_at": "2024-06-04T01:39:20Z"
+            },
+            {
+                "name": "Post Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 15,
+                "started_at": "2024-06-04T01:39:20Z",
+                "completed_at": "2024-06-04T01:39:20Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 16,
+                "started_at": "2024-06-04T01:39:21Z",
+                "completed_at": "2024-06-04T01:39:22Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 17,
+                "started_at": "2024-06-04T01:39:22Z",
+                "completed_at": "2024-06-04T01:39:22Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/andrewrothstein/hunter/check-runs/25763613112",
+        "labels": [
+            "windows-2019"
+        ],
+        "runner_id": 19,
+        "runner_name": "GitHub Actions 19",
+        "runner_group_id": 2,
+        "runner_group_name": "GitHub Actions"
+    },
+    {
+        "id": 25763612641,
+        "run_id": 9359609734,
+        "workflow_name": "CI",
+        "head_branch": "master",
+        "run_url": "https://api.github.com/repos/andrewrothstein/hunter/actions/runs/9359609734",
+        "run_attempt": 1,
+        "node_id": "CR_kwDODHB7ws8AAAAF_6GH4Q",
+        "head_sha": "f59ec4ed2e7ee0fab3291191cf28cd052b34ce13",
+        "url": "https://api.github.com/repos/andrewrothstein/hunter/actions/jobs/25763612641",
+        "html_url": "https://github.com/andrewrothstein/hunter/actions/runs/9359609734/job/25763612641",
+        "status": "completed",
+        "conclusion": "success",
+        "created_at": "2024-06-04T01:15:37Z",
+        "started_at": "2024-06-04T01:37:31Z",
+        "completed_at": "2024-06-04T01:38:41Z",
+        "name": "xxHash osx-12-3-arch-universal2-cxx17 macos-12",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2024-06-04T01:37:30Z",
+                "completed_at": "2024-06-04T01:37:31Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2024-06-04T01:37:31Z",
+                "completed_at": "2024-06-04T01:37:38Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2024-06-04T01:37:39Z",
+                "completed_at": "2024-06-04T01:37:39Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 4,
+                "started_at": "2024-06-04T01:37:39Z",
+                "completed_at": "2024-06-04T01:37:39Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 5,
+                "started_at": "2024-06-04T01:37:39Z",
+                "completed_at": "2024-06-04T01:37:39Z"
+            },
+            {
+                "name": "Build hunter_tests Unix",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 6,
+                "started_at": "2024-06-04T01:37:39Z",
+                "completed_at": "2024-06-04T01:37:39Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 7,
+                "started_at": "2024-06-04T01:37:39Z",
+                "completed_at": "2024-06-04T01:38:37Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 8,
+                "started_at": "2024-06-04T01:38:37Z",
+                "completed_at": "2024-06-04T01:38:37Z"
+            },
+            {
+                "name": "Post Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 15,
+                "started_at": "2024-06-04T01:38:37Z",
+                "completed_at": "2024-06-04T01:38:37Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 16,
+                "started_at": "2024-06-04T01:38:37Z",
+                "completed_at": "2024-06-04T01:38:38Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 17,
+                "started_at": "2024-06-04T01:38:38Z",
+                "completed_at": "2024-06-04T01:38:38Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/andrewrothstein/hunter/check-runs/25763612641",
+        "labels": [
+            "macos-12"
+        ],
+        "runner_id": 14,
+        "runner_name": "GitHub Actions 14",
+        "runner_group_id": 2,
+        "runner_group_name": "GitHub Actions"
+    },
+    {
+        "id": 25763611654,
+        "run_id": 9359609734,
+        "workflow_name": "CI",
+        "head_branch": "master",
+        "run_url": "https://api.github.com/repos/andrewrothstein/hunter/actions/runs/9359609734",
+        "run_attempt": 1,
+        "node_id": "CR_kwDODHB7ws8AAAAF_6GEBg",
+        "head_sha": "f59ec4ed2e7ee0fab3291191cf28cd052b34ce13",
+        "url": "https://api.github.com/repos/andrewrothstein/hunter/actions/jobs/25763611654",
+        "html_url": "https://github.com/andrewrothstein/hunter/actions/runs/9359609734/job/25763611654",
+        "status": "completed",
+        "conclusion": "success",
+        "created_at": "2024-06-04T01:15:34Z",
+        "started_at": "2024-06-04T01:36:59Z",
+        "completed_at": "2024-06-04T01:37:22Z",
+        "name": "xxHash sanitize-address-cxx17 ubuntu-20.04",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2024-06-04T01:36:59Z",
+                "completed_at": "2024-06-04T01:36:59Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2024-06-04T01:36:59Z",
+                "completed_at": "2024-06-04T01:37:02Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2024-06-04T01:37:02Z",
+                "completed_at": "2024-06-04T01:37:02Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 4,
+                "started_at": "2024-06-04T01:37:02Z",
+                "completed_at": "2024-06-04T01:37:02Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 5,
+                "started_at": "2024-06-04T01:37:02Z",
+                "completed_at": "2024-06-04T01:37:02Z"
+            },
+            {
+                "name": "Build hunter_tests Unix",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 6,
+                "started_at": "2024-06-04T01:37:02Z",
+                "completed_at": "2024-06-04T01:37:02Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 7,
+                "started_at": "2024-06-04T01:37:02Z",
+                "completed_at": "2024-06-04T01:37:21Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 8,
+                "started_at": "2024-06-04T01:37:21Z",
+                "completed_at": "2024-06-04T01:37:21Z"
+            },
+            {
+                "name": "Post Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 15,
+                "started_at": "2024-06-04T01:37:21Z",
+                "completed_at": "2024-06-04T01:37:21Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 16,
+                "started_at": "2024-06-04T01:37:21Z",
+                "completed_at": "2024-06-04T01:37:21Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 17,
+                "started_at": "2024-06-04T01:37:21Z",
+                "completed_at": "2024-06-04T01:37:21Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/andrewrothstein/hunter/check-runs/25763611654",
+        "labels": [
+            "ubuntu-20.04"
+        ],
+        "runner_id": 14,
+        "runner_name": "GitHub Actions 14",
+        "runner_group_id": 2,
+        "runner_group_name": "GitHub Actions"
+    },
+    {
+        "id": 25763612281,
+        "run_id": 9359609734,
+        "workflow_name": "CI",
+        "head_branch": "master",
+        "run_url": "https://api.github.com/repos/andrewrothstein/hunter/actions/runs/9359609734",
+        "run_attempt": 1,
+        "node_id": "CR_kwDODHB7ws8AAAAF_6GGeQ",
+        "head_sha": "f59ec4ed2e7ee0fab3291191cf28cd052b34ce13",
+        "url": "https://api.github.com/repos/andrewrothstein/hunter/actions/jobs/25763612281",
+        "html_url": "https://github.com/andrewrothstein/hunter/actions/runs/9359609734/job/25763612281",
+        "status": "completed",
+        "conclusion": "success",
+        "created_at": "2024-06-04T01:15:36Z",
+        "started_at": "2024-06-04T01:37:29Z",
+        "completed_at": "2024-06-04T01:37:48Z",
+        "name": "xxHash sanitize-leak-cxx17 ubuntu-20.04",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2024-06-04T01:37:28Z",
+                "completed_at": "2024-06-04T01:37:29Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2024-06-04T01:37:30Z",
+                "completed_at": "2024-06-04T01:37:31Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2024-06-04T01:37:32Z",
+                "completed_at": "2024-06-04T01:37:32Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 4,
+                "started_at": "2024-06-04T01:37:32Z",
+                "completed_at": "2024-06-04T01:37:32Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 5,
+                "started_at": "2024-06-04T01:37:32Z",
+                "completed_at": "2024-06-04T01:37:32Z"
+            },
+            {
+                "name": "Build hunter_tests Unix",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 6,
+                "started_at": "2024-06-04T01:37:32Z",
+                "completed_at": "2024-06-04T01:37:32Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 7,
+                "started_at": "2024-06-04T01:37:32Z",
+                "completed_at": "2024-06-04T01:37:47Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 8,
+                "started_at": "2024-06-04T01:37:47Z",
+                "completed_at": "2024-06-04T01:37:47Z"
+            },
+            {
+                "name": "Post Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 15,
+                "started_at": "2024-06-04T01:37:47Z",
+                "completed_at": "2024-06-04T01:37:47Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 16,
+                "started_at": "2024-06-04T01:37:48Z",
+                "completed_at": "2024-06-04T01:37:48Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 17,
+                "started_at": "2024-06-04T01:37:47Z",
+                "completed_at": "2024-06-04T01:37:47Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/andrewrothstein/hunter/check-runs/25763612281",
+        "labels": [
+            "ubuntu-20.04"
+        ],
+        "runner_id": 17,
+        "runner_name": "GitHub Actions 17",
+        "runner_group_id": 2,
+        "runner_group_name": "GitHub Actions"
+    },
+    {
+        "id": 25763612437,
+        "run_id": 9359609734,
+        "workflow_name": "CI",
+        "head_branch": "master",
+        "run_url": "https://api.github.com/repos/andrewrothstein/hunter/actions/runs/9359609734",
+        "run_attempt": 1,
+        "node_id": "CR_kwDODHB7ws8AAAAF_6GHFQ",
+        "head_sha": "f59ec4ed2e7ee0fab3291191cf28cd052b34ce13",
+        "url": "https://api.github.com/repos/andrewrothstein/hunter/actions/jobs/25763612437",
+        "html_url": "https://github.com/andrewrothstein/hunter/actions/runs/9359609734/job/25763612437",
+        "status": "completed",
+        "conclusion": "success",
+        "created_at": "2024-06-04T01:15:36Z",
+        "started_at": "2024-06-04T01:37:01Z",
+        "completed_at": "2024-06-04T01:37:30Z",
+        "name": "xxHash sanitize-thread-cxx17 ubuntu-20.04",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2024-06-04T01:37:01Z",
+                "completed_at": "2024-06-04T01:37:01Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2024-06-04T01:37:01Z",
+                "completed_at": "2024-06-04T01:37:06Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2024-06-04T01:37:06Z",
+                "completed_at": "2024-06-04T01:37:06Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 4,
+                "started_at": "2024-06-04T01:37:07Z",
+                "completed_at": "2024-06-04T01:37:07Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 5,
+                "started_at": "2024-06-04T01:37:07Z",
+                "completed_at": "2024-06-04T01:37:07Z"
+            },
+            {
+                "name": "Build hunter_tests Unix",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 6,
+                "started_at": "2024-06-04T01:37:07Z",
+                "completed_at": "2024-06-04T01:37:07Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 7,
+                "started_at": "2024-06-04T01:37:07Z",
+                "completed_at": "2024-06-04T01:37:26Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 8,
+                "started_at": "2024-06-04T01:37:30Z",
+                "completed_at": "2024-06-04T01:37:30Z"
+            },
+            {
+                "name": "Post Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 15,
+                "started_at": "2024-06-04T01:37:30Z",
+                "completed_at": "2024-06-04T01:37:30Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 16,
+                "started_at": "2024-06-04T01:37:30Z",
+                "completed_at": "2024-06-04T01:37:30Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 17,
+                "started_at": "2024-06-04T01:37:26Z",
+                "completed_at": "2024-06-04T01:37:26Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/andrewrothstein/hunter/check-runs/25763612437",
+        "labels": [
+            "ubuntu-20.04"
+        ],
+        "runner_id": 16,
+        "runner_name": "GitHub Actions 16",
+        "runner_group_id": 2,
+        "runner_group_name": "GitHub Actions"
+    },
+    {
+        "id": 25763613245,
+        "run_id": 9359609734,
+        "workflow_name": "CI",
+        "head_branch": "master",
+        "run_url": "https://api.github.com/repos/andrewrothstein/hunter/actions/runs/9359609734",
+        "run_attempt": 1,
+        "node_id": "CR_kwDODHB7ws8AAAAF_6GKPQ",
+        "head_sha": "f59ec4ed2e7ee0fab3291191cf28cd052b34ce13",
+        "url": "https://api.github.com/repos/andrewrothstein/hunter/actions/jobs/25763613245",
+        "html_url": "https://github.com/andrewrothstein/hunter/actions/runs/9359609734/job/25763613245",
+        "status": "completed",
+        "conclusion": "success",
+        "created_at": "2024-06-04T01:15:38Z",
+        "started_at": "2024-06-04T01:37:11Z",
+        "completed_at": "2024-06-04T01:39:05Z",
+        "name": "xxHash vs-16-2019-win64-sdk-10-0-18362-0-cxx17 windows-2019",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2024-06-04T01:37:11Z",
+                "completed_at": "2024-06-04T01:37:12Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2024-06-04T01:37:12Z",
+                "completed_at": "2024-06-04T01:37:25Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2024-06-04T01:37:25Z",
+                "completed_at": "2024-06-04T01:37:25Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 4,
+                "started_at": "2024-06-04T01:37:25Z",
+                "completed_at": "2024-06-04T01:37:25Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 5,
+                "started_at": "2024-06-04T01:37:25Z",
+                "completed_at": "2024-06-04T01:37:26Z"
+            },
+            {
+                "name": "Build hunter_tests Unix",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 6,
+                "started_at": "2024-06-04T01:37:26Z",
+                "completed_at": "2024-06-04T01:37:26Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 7,
+                "started_at": "2024-06-04T01:37:26Z",
+                "completed_at": "2024-06-04T01:37:26Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 8,
+                "started_at": "2024-06-04T01:37:26Z",
+                "completed_at": "2024-06-04T01:39:02Z"
+            },
+            {
+                "name": "Post Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 15,
+                "started_at": "2024-06-04T01:39:02Z",
+                "completed_at": "2024-06-04T01:39:02Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 16,
+                "started_at": "2024-06-04T01:39:02Z",
+                "completed_at": "2024-06-04T01:39:04Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 17,
+                "started_at": "2024-06-04T01:39:04Z",
+                "completed_at": "2024-06-04T01:39:04Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/andrewrothstein/hunter/check-runs/25763613245",
+        "labels": [
+            "windows-2019"
+        ],
+        "runner_id": 7,
+        "runner_name": "GitHub Actions 7",
+        "runner_group_id": 2,
+        "runner_group_name": "GitHub Actions"
+    },
+    {
+        "id": 25763613391,
+        "run_id": 9359609734,
+        "workflow_name": "CI",
+        "head_branch": "master",
+        "run_url": "https://api.github.com/repos/andrewrothstein/hunter/actions/runs/9359609734",
+        "run_attempt": 1,
+        "node_id": "CR_kwDODHB7ws8AAAAF_6GKzw",
+        "head_sha": "f59ec4ed2e7ee0fab3291191cf28cd052b34ce13",
+        "url": "https://api.github.com/repos/andrewrothstein/hunter/actions/jobs/25763613391",
+        "html_url": "https://github.com/andrewrothstein/hunter/actions/runs/9359609734/job/25763613391",
+        "status": "completed",
+        "conclusion": "success",
+        "created_at": "2024-06-04T01:15:39Z",
+        "started_at": "2024-06-04T01:37:10Z",
+        "completed_at": "2024-06-04T01:40:32Z",
+        "name": "xxHash vs-16-2019-win64-store-10-cxx17 windows-2019",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2024-06-04T01:37:09Z",
+                "completed_at": "2024-06-04T01:37:10Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2024-06-04T01:37:10Z",
+                "completed_at": "2024-06-04T01:37:25Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2024-06-04T01:37:25Z",
+                "completed_at": "2024-06-04T01:37:25Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 4,
+                "started_at": "2024-06-04T01:37:26Z",
+                "completed_at": "2024-06-04T01:37:26Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 5,
+                "started_at": "2024-06-04T01:37:26Z",
+                "completed_at": "2024-06-04T01:37:26Z"
+            },
+            {
+                "name": "Build hunter_tests Unix",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 6,
+                "started_at": "2024-06-04T01:37:26Z",
+                "completed_at": "2024-06-04T01:37:26Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 7,
+                "started_at": "2024-06-04T01:37:26Z",
+                "completed_at": "2024-06-04T01:37:26Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 8,
+                "started_at": "2024-06-04T01:37:26Z",
+                "completed_at": "2024-06-04T01:40:28Z"
+            },
+            {
+                "name": "Post Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 15,
+                "started_at": "2024-06-04T01:40:29Z",
+                "completed_at": "2024-06-04T01:40:29Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 16,
+                "started_at": "2024-06-04T01:40:29Z",
+                "completed_at": "2024-06-04T01:40:30Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 17,
+                "started_at": "2024-06-04T01:40:30Z",
+                "completed_at": "2024-06-04T01:40:30Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/andrewrothstein/hunter/check-runs/25763613391",
+        "labels": [
+            "windows-2019"
+        ],
+        "runner_id": 3,
+        "runner_name": "GitHub Actions 3",
+        "runner_group_id": 2,
+        "runner_group_name": "GitHub Actions"
+    }
+]
